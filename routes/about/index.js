@@ -3,6 +3,6 @@ const router = express.Router();
 
 const get = require('./get');
 
-router.get('/', get);
+router.get('/about', get);
 
 module.exports = router;
