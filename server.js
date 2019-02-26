@@ -11,10 +11,6 @@ app.use(express.static('public'));
 app.engine('.hbs', exphbs({ extname: '.hbs', defaultLayout: 'main' }));
 app.set('view engine', '.hbs');
 
-// app.get('/', (req, res) => {
-//   res.send('smoke test');
-// });
-
 app.use(home);
 app.use(about);
 app.use(contact);
